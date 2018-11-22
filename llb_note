@@ -1,0 +1,4 @@
+install USB port remap: ./scripts/create_udev_rules.sh
+
+Once you have change the USB port remap, you MUST change the launch file about the serial_port value.
+<param name="serial_port" type="string" value="/dev/rplidar"/>
